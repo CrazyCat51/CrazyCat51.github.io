@@ -1,6 +1,6 @@
 
 import { useToast } from "@/components/ui/use-toast";
-import { ShoppingBag, MessageSquare, Award, Lock, Copy, Twitter, Instagram, Discord } from "lucide-react";
+import { ShoppingBag, MessageSquare, Award, Lock, Copy, Twitter, Instagram } from "lucide-react";
 import { useState } from "react";
 
 export default function Index() {
@@ -38,7 +38,7 @@ export default function Index() {
         </div>
 
         <div className="glass-card px-4 py-2 rounded-lg flex items-center gap-2">
-          <Discord className="w-4 h-4" />
+          <MessageSquare className="w-4 h-4" />
           <span className="text-sm md:text-base">41 Online</span>
         </div>
       </header>
@@ -73,7 +73,7 @@ export default function Index() {
             <Instagram className="w-6 h-6" />
           </a>
           <a href="#" className="hover:text-primary/80 transition-colors">
-            <Discord className="w-6 h-6" />
+            <MessageSquare className="w-6 h-6" />
           </a>
         </div>
         <div className="text-center text-sm text-muted-foreground">
