@@ -33,7 +33,7 @@ export default function Index() {
           <img
             src="/lovable-uploads/e4b6e285-189f-49e6-814e-413820d38fc1.png"
             alt="Brutal Prison Logo"
-            className="h-32 md:h-48 object-contain"
+            className="h-32 md:h-48 object-contain animate-float"
           />
         </div>
 
