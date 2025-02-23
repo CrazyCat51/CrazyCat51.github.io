@@ -1,6 +1,6 @@
 
 import { useToast } from "@/components/ui/use-toast";
-import { ShoppingBag, MessageSquare, Award, Lock, Copy, Twitter, Instagram } from "lucide-react";
+import { Copy, Twitter, Instagram, MessageSquare } from "lucide-react";
 import { useState } from "react";
 
 export default function Index() {
@@ -46,19 +46,35 @@ export default function Index() {
       {/* Navigation Grid */}
       <nav className="w-full max-w-6xl grid grid-cols-1 md:grid-cols-4 gap-4 my-12 animate-scale-in">
         <button className="nav-button">
-          <ShoppingBag className="w-12 h-12" />
+          <img
+            src="https://img.freepik.com/premium-vector/bag-gold-coins-vector-illustration_96037-185.jpg?w=1380"
+            alt="Store"
+            className="w-12 h-12 object-contain"
+          />
           <span className="text-lg font-medium">Store</span>
         </button>
         <button className="nav-button">
-          <MessageSquare className="w-12 h-12" />
+          <img
+            src="https://img.freepik.com/premium-vector/bag-gold-coins-vector-illustration_96037-185.jpg?w=1380"
+            alt="Discord"
+            className="w-12 h-12 object-contain"
+          />
           <span className="text-lg font-medium">Discord</span>
         </button>
         <button className="nav-button">
-          <Award className="w-12 h-12" />
+          <img
+            src="https://img.freepik.com/premium-vector/bag-gold-coins-vector-illustration_96037-185.jpg?w=1380"
+            alt="Vote"
+            className="w-12 h-12 object-contain"
+          />
           <span className="text-lg font-medium">Vote</span>
         </button>
         <button className="nav-button">
-          <Lock className="w-12 h-12" />
+          <img
+            src="https://img.freepik.com/premium-vector/bag-gold-coins-vector-illustration_96037-185.jpg?w=1380"
+            alt="Rules"
+            className="w-12 h-12 object-contain"
+          />
           <span className="text-lg font-medium">Rules</span>
         </button>
       </nav>
